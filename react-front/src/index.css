@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .btn-primary {
+        @apply [&]:p-2 [&]:bg-orange-600 [&]:text-white [&]:rounded [&]:hover:transform [&]:hover:scale-105 [&]:transition [&]:duration-500
+        [&]:active:bg-orange-500 [&]:text-center;
+    }
+    .btn-secondary {
+        @apply [&]:p-2 [&]:bg-gray-600 [&]:text-white  [&]:rounded [&]:hover:transform [&]:hover:scale-105 [&]:transition [&]:duration-500
+        [&]:active:bg-gray-700 [&]:text-center;
+    }
+    .min-screen {
+        min-height: calc(100vh - 100px);
+    }
+}
