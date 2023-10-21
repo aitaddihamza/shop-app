@@ -1,4 +1,4 @@
-# how to setup the project type the following commandes :
+# use following commandes to setup the project
 
 <ol>
     <li>Composer install </li>
@@ -9,3 +9,16 @@
     <li>npm install </li>
     <li>npm run dev</li>
 </ol>
+
+# usage
+
+<ul> 
+<li>access to localhost:3000/admin</li>
+<li>sign in with this crendentials : 
+    <ul>
+        <li><strong>Email: </strong> test@example.com</li>
+        <li><strong>Password: </strong> test</li>
+    </ul>
+</li>
+<li>then you can add, delete, update product </li>
+</ul>

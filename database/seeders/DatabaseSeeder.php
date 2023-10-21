@@ -18,9 +18,9 @@ class DatabaseSeeder extends Seeder
 
         Bien::factory(20)->create();
         \App\Models\User::factory()->create([
-            'name' => 'hamza',
-            'email' => 'hamza@example.com',
-            'password' => bcrypt('hamza@2023')
+            'name' => 'test',
+            'email' => 'test@example.com',
+            'password' => bcrypt('test')
         ]);
     }
 }
