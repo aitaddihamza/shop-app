@@ -15,7 +15,7 @@ const Pagination = ({
                 onClick={() =>
                     setCurrentPage(currentPage === 1 ? 1 : currentPage - 1)
                 }
-                className="bg-blue-600 text-center w-8 text-blue-600 border hover:text-white hover:bg-blue-600  border-solid border-blue-700 bg-transparent"
+                className="bg-blue-600 rounded font-medium transition-all duration-200 focus:outline-none  text-center w-8 text-blue-600 border hover:text-white hover:bg-blue-600  border-solid border-blue-700 bg-transparent"
             >
                 {"<<"}
             </button>
@@ -27,7 +27,7 @@ const Pagination = ({
                             ? { backgroundColor: "blue", color: "white" }
                             : null
                     }
-                    className="bg-blue-600 text-center w-8 text-blue-600 border hover:text-white hover:bg-blue-600  border-solid border-blue-700 bg-transparent"
+                    className="bg-blue-600 rounded font-medium transition-all duration-200 focus:outline-none  text-center w-8 text-blue-600 border hover:text-white hover:bg-blue-600  border-solid border-blue-700 bg-transparent"
                     key={index}
                 >
                     {index}
@@ -41,7 +41,7 @@ const Pagination = ({
                             : currentPage + 1
                     )
                 }
-                className="bg-blue-600 text-center w-8 text-blue-600 border hover:text-white hover:bg-blue-600  border-solid border-blue-700 bg-transparent"
+                className="bg-blue-600 rounded font-medium transition-all duration-200 focus:outline-none  text-center w-8 text-blue-600 border hover:text-white hover:bg-blue-600  border-solid border-blue-700 bg-transparent"
             >
                 {">>"}
             </button>
