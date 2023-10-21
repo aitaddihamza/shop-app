@@ -22,3 +22,5 @@
 </li>
 <li>Then you can add, delete, update product </li>
 </ul>
+<p>In this simple CRUD project i use Laravel for backend, react js for frontend and axios as a tool to send requests to Laravel api </p>
+
