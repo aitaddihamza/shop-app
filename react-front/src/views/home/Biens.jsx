@@ -54,7 +54,7 @@ const Biens = () => {
             }
         };
         getBiensCart();
-    }, []);
+    }, [currentPage]);
 
     const handleSearch = (e) => {
         e.preventDefault();
